@@ -1,4 +1,5 @@
 class ChatroomController < ApplicationController
-    def index 
+    def index
+        @messages = Message.all 
     end
 end
